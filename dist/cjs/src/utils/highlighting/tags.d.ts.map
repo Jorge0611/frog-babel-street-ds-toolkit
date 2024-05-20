@@ -1,0 +1,1 @@
+{"version":3,"file":"tags.d.ts","sourceRoot":"","sources":["../../../../ui/src/utils/highlighting/tags.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,aAAa;IAC5B,GAAG,EAAE,MAAM,CAAC;IACZ,QAAQ,EAAE,MAAM,CAAC;IACjB,MAAM,EAAE,MAAM,CAAC;IACf,SAAS,EAAE,MAAM,CAAC;IAClB,KAAK,EAAE,MAAM,CAAC;CACf;AAED,eAAO,MAAM,IAAI,EAAE;IAAE,CAAC,CAAC,EAAE,MAAM,GAAG,aAAa,CAAA;CAyD9C,CAAC"}

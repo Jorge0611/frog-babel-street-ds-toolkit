@@ -1,0 +1,1 @@
+{"version":3,"file":"FullDocHeader.d.ts","sourceRoot":"","sources":["../../../../ui/src/components/FullDocHeader/FullDocHeader.tsx"],"names":[],"mappings":"AAGA,OAAO,EAAc,eAAe,EAAE,MAAM,eAAe,CAAC;AAE5D,MAAM,MAAM,kBAAkB,GAAG,eAAe,GAAG;IACjD,KAAK,EAAE,MAAM,CAAC;CACf,CAAC;AAUF,wBAAgB,aAAa,CAAC,KAAK,EAAE,kBAAkB,2CAEtD;yBAFe,aAAa"}

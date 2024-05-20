@@ -1,0 +1,1 @@
+{"version":3,"file":"replaceBSTooltip.d.ts","sourceRoot":"","sources":["../../../../ui/src/utils/highlighting/replaceBSTooltip.tsx"],"names":[],"mappings":"AACA,OAAO,EAAE,OAAO,EAAuB,MAAM,mBAAmB,CAAC;AACjE,OAAO,EAAE,WAAW,EAA8B,MAAM,OAAO,CAAC;AAIhE,wBAAgB,gBAAgB,CAAC,KAAK,EAAE,WAAW,EAAE,WAAW,CAAC,EAAE,MAAM,aAEtD,OAAO,yDA4EzB;AAED,wBAAgB,UAAU,CAAC,GAAG,EAAE,MAAM,yRAiBrC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"InputGroupLabel.d.ts","sourceRoot":"","sources":["../../../../ui/src/components/InputGroupLabel/InputGroupLabel.tsx"],"names":[],"mappings":"AAIA,OAAO,EAEL,cAAc,IAAI,iBAAiB,EACpC,MAAM,eAAe,CAAC;AAEvB,MAAM,MAAM,oBAAoB,GAAG,iBAAiB,CAAC;AAarD,wBAAgB,eAAe,CAAC,KAAK,EAAE,oBAAoB,2CAE1D;yBAFe,eAAe"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"WatchlistField.d.ts","sourceRoot":"","sources":["../../../../../../ui/src/components/Card/SearchResultCard/WatchlistSupport/WatchlistField.tsx"],"names":[],"mappings":"AAMA,UAAU,mBAAmB;IAC3B,OAAO,CAAC,EAAE,MAAM,GAAG,SAAS,CAAC;IAC7B,KAAK,EAAE,MAAM,CAAC;IACd,UAAU,EAAE,MAAM,EAAE,CAAC;CACtB;AAED,MAAM,CAAC,OAAO,UAAU,cAAc,CAAC,KAAK,EAAE,mBAAmB,kDAchE"}

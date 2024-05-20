@@ -1,0 +1,1 @@
+{"version":3,"file":"WordCloud.d.ts","sourceRoot":"","sources":["../../../../ui/src/components/WordCloud/WordCloud.tsx"],"names":[],"mappings":"AAUA,MAAM,MAAM,cAAc,GAAG;IAC3B,KAAK,EAAE,KAAK,CAAC;QAAE,IAAI,EAAE,MAAM,CAAC;QAAC,KAAK,CAAC,EAAE,MAAM,CAAA;KAAE,CAAC,CAAC;CAChD,CAAC;AAEF,wBAAgB,SAAS,CAAC,KAAK,EAAE,cAAc,2CAgC9C;yBAhCe,SAAS"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"NotificationOutlined.d.ts","sourceRoot":"","sources":["../../../ui/src/icons/NotificationOutlined.tsx"],"names":[],"mappings":"AAEA,OAAO,EAAW,YAAY,IAAI,YAAY,EAAE,MAAM,eAAe,CAAC;AAEtE,MAAM,MAAM,6BAA6B,GAAG,YAAY,GAAG;IACzD,SAAS,CAAC,EAAE,MAAM,CAAC;CACpB,CAAC;AAMF,wBAAgB,wBAAwB,CAAC,KAAK,EAAE,6BAA6B,2CAkB5E;yBAlBe,wBAAwB"}

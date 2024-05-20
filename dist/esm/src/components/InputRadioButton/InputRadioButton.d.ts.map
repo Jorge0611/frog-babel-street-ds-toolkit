@@ -1,0 +1,1 @@
+{"version":3,"file":"InputRadioButton.d.ts","sourceRoot":"","sources":["../../../../ui/src/components/InputRadioButton/InputRadioButton.tsx"],"names":[],"mappings":"AAIA,OAAO,EAEL,UAAU,IAAI,aAAa,EAG5B,MAAM,eAAe,CAAC;AAEvB,MAAM,MAAM,qBAAqB,GAAG,aAAa,CAAC;AA6DlD,wBAAgB,gBAAgB,CAAC,KAAK,EAAE,qBAAqB,2CAS5D;yBATe,gBAAgB"}

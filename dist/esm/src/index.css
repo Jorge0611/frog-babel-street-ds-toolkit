@@ -1,0 +1,317 @@
+/* SIMPLON NORM FONT IMPORTS */
+/* mapping follows this https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping */
+@font-face {
+  font-family: "Simplon Norm";
+  src: url("./fonts/SimplonNorm-Bold.otf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Simplon Norm";
+  src: url("./fonts/SimplonNorm-BoldItalic.otf");
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Simplon Norm";
+  src: url("./fonts/SimplonNorm-Medium.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Simplon Norm";
+  src: url("./fonts/SimplonNorm-MediumItalic.otf");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Simplon Norm";
+  src: url("./fonts/SimplonNorm-Regular.otf");
+  font-style: normal;
+  font-style: 400;
+}
+
+@font-face {
+  font-family: "Simplon Norm";
+  src: url("./fonts/SimplonNorm-RegularItalic.otf");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Simplon Norm";
+  src: url("./fonts/SimplonNorm-Light.otf");
+  font-style: normal;
+  font-style: 300;
+}
+
+@font-face {
+  font-family: "Simplon Norm";
+  src: url("./fonts/SimplonNorm-LightItalic.otf");
+  font-style: italic;
+  font-style: 300;
+}
+
+.Search {
+  --searchRadius: 32px;
+  all: revert;
+  box-sizing: border-box;
+  background-color: #e3e8ef;
+  border-radius: var(--searchRadius);
+}
+.Search.closed {
+  max-height: 64px;
+  --searchRadius: 40px;
+}
+.Search.withResults {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.Search.hideAutocomplete {
+  border-bottom-right-radius: var(--searchRadius);
+  border-bottom-left-radius: var(--searchRadius);
+}
+.Search.hideScroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.Search.hideScroll ::-webkit-scrollbar {
+  display: none;
+}
+.Search .searchBarContainer {
+  padding-left: 16px;
+}
+.Search .searchBar {
+  display: flex;
+}
+.Search .searchBar .searchTypeMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Search .searchBar .searchTypeMenu .staticIcon {
+  width: 40px;
+  margin-right: 8px;
+}
+.Search .searchBar .searchTypeMenu svg {
+  fill: rgba(14, 17, 23, 0.75);
+}
+.Search .searchBar .searchTypeMenu .MuiDivider-root {
+  border-color: #c2cbda;
+}
+.Search .searchBar .searchInput {
+  margin: 8px 0;
+  border-radius: var(--searchRadius);
+  padding-right: 16px;
+  flex: 1;
+}
+.Search .searchBar .searchInput .MuiAutocomplete-popper {
+  z-index: 100;
+}
+.Search .searchBar .searchInput .searchTextField.searchClosed {
+  max-height: 48px;
+}
+.Search .searchBar .searchInput .searchTextField.noEntityChips .MuiChip-root .chipContentContainer .chipTextContainer .value {
+  font-style: normal;
+  font-weight: 600;
+}
+.Search .searchBar .searchInput .searchTextField.peopleSearch .MuiInputBase-input {
+  caret-color: transparent;
+}
+.Search .searchBar .searchInput .searchTextField .MuiInputBase-root {
+  padding-top: 0;
+  padding-left: 4px;
+  min-height: 48px;
+  max-height: 192px;
+  overflow-y: auto;
+  border-radius: 28px;
+  background-color: transparent;
+}
+.Search .searchBar .searchInput .searchTextField .MuiInputBase-root::before, .Search .searchBar .searchInput .searchTextField .MuiInputBase-root::after {
+  border: 0;
+}
+.Search .searchBar .searchInput .searchTextField .MuiInputBase-root .MuiInputBase-input {
+  padding-left: 12px;
+}
+.Search .searchBar .searchInput .searchTextField .MuiInputBase-root .MuiChip-root {
+  margin: 4px;
+}
+.Search .searchBar .searchInput .searchTextField.searchOpen .MuiInputBase-root {
+  background-color: #cdd5df;
+}
+.Search .searchBar .searchButtonContainer {
+  padding-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Search .searchBar .searchButtonContainer .searchButton {
+  box-shadow: 0px 4px 5px 0px rgba(14, 17, 23, 0.2509803922);
+  background-color: #388ccd;
+}
+.Search .searchBar .searchButtonContainer .searchButton svg {
+  fill: rgba(252, 252, 253, 0.95);
+}
+.Search .searchBar .searchButtonContainer .searchButton:hover {
+  background-color: #2470ab;
+}
+.Search .searchBar .searchButtonContainer .searchButton:active {
+  background-color: #50aaef;
+}
+.Search .searchOptions {
+  padding: 16px 48px 16px 48px;
+}
+.Search .label {
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  color: rgba(14, 17, 23, 0.75);
+}
+.Search .label .labelHelpIcon {
+  margin-bottom: -2px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.Search .label .labelHelpIcon .MuiSvgIcon-root {
+  fill: rgba(14, 17, 23, 0.75);
+}
+.Search .docSearchFilters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Search .docSearchFilters .filterHeading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.Search .docSearchFilters .filterHeading .filterInfo {
+  display: flex;
+  align-items: center;
+  color: rgba(14, 17, 23, 0.35);
+}
+.Search .docSearchFilters .filterHeading .filterInfo .MuiSvgIcon-root {
+  margin-right: 8px;
+}
+.Search .docSearchFilters .filterHeading .searchModeInput {
+  color: rgba(14, 17, 23, 0.75);
+  display: flex;
+  align-items: center;
+}
+.Search .searchWithinSection {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+.Search .searchWithinSection.hideAutocomplete {
+  padding-bottom: 0;
+}
+.Search .searchWithinSection .searchWithinOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 32px;
+}
+.Search .searchWithinSection .searchWithinChipGroup {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Search .searchWithinSection .searchWithinChipGroup .searchWithinTypeHeading {
+  padding-bottom: 12px;
+  color: rgba(14, 17, 23, 0.75);
+}
+.Search .autocompleteSection {
+  display: flex;
+  align-items: flex-start;
+  border-top: 1px solid #c2cbda;
+  padding-top: 24px;
+}
+.Search .autocompleteSection.hideAutocomplete {
+  display: none;
+}
+/**
+ * Variables
+ */
+/**
+ * Variables
+ */
+/**
+ * Media Queries for Sized
+ *
+ * @include respond-to('md') {}
+ * @include respond-to('lg') {}
+ *
+ */
+/**
+ * Media Queries for Features
+ *
+ * @include feature-to('hover') {}
+ *
+ */
+/**
+ * Input Placeholder
+ *
+ * @include input-placeholder() {}
+ *
+ */
+/**
+ * Button reset
+ *
+ * @include button-reset;
+ *
+ */
+#errorBoundaryContainer {
+  background-color: #101a24;
+}
+#errorBoundaryContainer h4 {
+  font-family: "Simplon Norm";
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: rgba(252, 252, 253, 0.75);
+  margin-bottom: 16px;
+}
+#errorBoundaryContainer .subTitle {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  color: rgba(252, 252, 253, 0.75);
+  margin: 0;
+}
+#errorBoundaryContainer span {
+  cursor: pointer;
+  color: "blue";
+  text-decoration: underline;
+}
+#errorBoundaryContainer button {
+  border: 1px solid #e3e8ef;
+  background-color: transparent;
+  border-radius: 24px;
+  padding: 12px 18px 10px 18px;
+  font-family: "Simplon Norm";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  color: #e3e8ef;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#errorBoundaryContainer button:hover {
+  border: 1px solid #f0f2f5;
+  background-color: rgba(252, 252, 253, 0.1);
+}
+#errorBoundaryContainer button:active {
+  color: #e3e8ef;
+}

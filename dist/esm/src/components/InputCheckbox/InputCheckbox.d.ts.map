@@ -1,0 +1,1 @@
+{"version":3,"file":"InputCheckbox.d.ts","sourceRoot":"","sources":["../../../../ui/src/components/InputCheckbox/InputCheckbox.tsx"],"names":[],"mappings":"AAIA,OAAO,EAEL,aAAa,IAAI,gBAAgB,EAGlC,MAAM,eAAe,CAAC;AAEvB,MAAM,MAAM,kBAAkB,GAAG,gBAAgB,CAAC;AA4ElD,wBAAgB,aAAa,CAAC,KAAK,EAAE,kBAAkB,2CAUtD;yBAVe,aAAa"}

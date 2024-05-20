@@ -1,0 +1,1 @@
+{"version":3,"file":"InputLabel.d.ts","sourceRoot":"","sources":["../../../../ui/src/components/InputLabel/InputLabel.tsx"],"names":[],"mappings":"AAIA,OAAO,EAEL,eAAe,IAAI,kBAAkB,EACtC,MAAM,eAAe,CAAC;AAEvB,MAAM,MAAM,eAAe,GAAG,kBAAkB,GAAG;IACjD,gBAAgB,CAAC,EAAE,OAAO,CAAC;CAC5B,CAAC;AAWF,wBAAgB,UAAU,CAAC,KAAK,EAAE,eAAe,2CAEhD;yBAFe,UAAU"}
